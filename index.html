@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <h1 align="center">My Notes</h1>
+    </head>
+    <body>
+		<div id="overlay">
+     <h1 id="enter_key_text">Enter the Key</h1></br>
+     <form name="secret_key_form">
+		 <input type="text" name="key" class="form-control" id="secret_key"></br></br>
+		 </form>
+    <button id="enter_key">Enter</button></br>
+</div>
+            <textarea id="note" class="note form-control"></textarea>
+             
+                <div class="button-container">
+                    <button class="btn btn-success" type="submit" id="submit">Submit</button>
+                </div>
+                <div id="list_group_div">
+<ul id="noteshow" class="list-group"></ul>
+</div>
+        <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+        <script src="scripts.js"></script>
+        
+        
+            </body>
+</html>
